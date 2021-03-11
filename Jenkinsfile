@@ -4,7 +4,6 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                chmod 777 ./hello.sh
                 sh ./hello.sh
             }
         }
