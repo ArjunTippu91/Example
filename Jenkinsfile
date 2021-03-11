@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sudo sh './hello.sh'
+                sh './hello.sh'
             }
         }
         stage('Test') {
