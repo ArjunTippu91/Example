@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing..With..github..KS'
+                echo 'Testing..With..github..RAKS'
             }
         }
         stage('Deploy') {
