@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing..With..github..RAKS'
+                echo 'Testing..With..github..RAKS-MPL'
             }
         }
         stage('Deploy') {
